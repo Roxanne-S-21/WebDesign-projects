@@ -16,8 +16,9 @@ ul {
   a {
     color: #09ff00;
  text-decoration: none;
+ text-align: left;
   }
-  text-align: left;
+
 }
 
 li a:hover {
