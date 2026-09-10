@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(39, 54, 39);
+    color:rgb(14, 20, 14)
+}
+
+img {
+     width: 100%; 
+     margin: 0 auto;
+    display:block
+   
+}
+
+hr {
+ color:rgb(14, 20, 14)   
+}
+
+a {
+color: chartreuse;
+text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+#container { background-color: rgb(77, 117, 94);
+    width: 85%;
+    margin:20px auto;
+    padding: 20px;
+ border: 4px solid rgb(164, 224, 174)
+
+}
+
+#contactpagewrapper {
+     background-color: rgb(77, 117, 94);
+    width: 85%;
+    margin:20px auto;
+    padding: 20px;
+ border: 4px solid rgb(164, 224, 174)
+}
+
+#cont2 {
+    background-color: rgb(77, 117, 94);
+    width: 85%;
+    margin:20px auto;
+    padding: 20px;
+ border: 4px solid rgb(164, 224, 174)
+}
+
+
+header {
+    color: rgb(14, 20, 14);
+text-align: center;
+padding: 20px
+
+}
+
+nav {
+text-align: center;
+  border-bottom: 4px solid rgb(164, 224, 174) ;
+  border-top: 4px solid rgb(164, 224, 174) ;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+   
+}
+
+nav li {
+display: inline-block;
+
+}
+
+nav li a {
+    display: block;
+    background-color: rgb(14, 20, 14);
+    width: 200px;
+    height:40px;
+    line-height: 40px;
+    border-radius: 0%;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.multicol {
+    display: flex;
+    padding: 20px;
+}
+
+section, aside {
+margin: 20px;
+}
+
+.Flag {
+    height: 300px;
+    width: 500px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto; 
+}
