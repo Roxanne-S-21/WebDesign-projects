@@ -105,3 +105,8 @@ iframe {
     display: block;
     margin: 20px auto; 
 }
+
+.FDE {
+        height: 50%;
+        width: 50%;
+}
