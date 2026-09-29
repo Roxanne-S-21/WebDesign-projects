@@ -1,3 +1,5 @@
+/*Global Styles*/
+
 body {
     background-color: rgb(118, 145, 168);
     border: 4px solid aliceblue;
@@ -220,4 +222,194 @@ img {
     height: 400px;
 }
 
-/*tablet styles*/
+/*moblie styles (iphone SE)*/
+
+@media (min-width: 300px) {
+
+    main {
+        font-size: small;
+    }
+    
+nav li a {
+    color:rgb(0, 0, 0);
+    display: block;
+    background-color: rgb(105, 118, 138);
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+      border: 2px solid;
+      font-size: x-large;
+
+}
+
+.marrowswrap iframe {
+    width: 250px;
+    height: 45%
+}
+
+.marrowswrap img {
+    width: 250px;
+}
+
+.emswrap iframe {
+    width: 250px;
+    height: 45%;
+}
+
+.emswrap img {
+    width: 250px;
+}
+
+.edwrap img {
+    width: 250px;
+}
+
+.edwrap video {
+    width: 250px;
+}
+
+.mscwrap img {
+    width: 250px;
+}
+
+.mscwrap iframe {
+    width: 250px;
+    height: 45%;
+}
+
+.multicol {
+    border: 4px solid aliceblue;
+    padding: 10px;
+    margin: 0%;
+    background-color: rgb(201, 200, 198);
+}
+
+
+.WOE {
+    width: 100px;
+    height: 100px;
+}
+
+}
+
+/*Tablet styles (Ipad Mini)*/
+
+@media (min-width: 700px) {
+
+
+    main {
+        font-size: medium;
+    }
+    
+    main h1 {
+        font-size: xx-large;
+        
+    }
+
+    main h2 {
+        font-size: xx-large;
+        
+    }
+
+nav li a {
+    color:rgb(0, 0, 0);
+    display: block;
+    background-color: rgb(105, 118, 138);
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+      border: 2px solid;
+      font-size: x-large;
+
+}
+
+.marrowswrap img {
+width: 400px;
+}
+
+
+.marrowswrap iframe {
+width: 500px;
+height: 400px;
+}
+
+.emswrap img {
+width: 400px;
+}
+
+
+.emswrap iframe {
+width: 500px;
+height: 400px;
+}
+
+.edwrap img {
+width: 500px;
+height: 400px;
+}
+
+.edwrap iframe {
+width: 500px;
+height: 400px;
+}
+
+.edwrap video {
+    width: 500px;
+}
+.mscwrap img {
+width: 400px;
+}
+
+.mscwrap iframe {
+width: 500px;
+height: 400px;
+}
+
+}
+
+/*Desktop Styles*/
+
+@media (min-width: 800px) {
+
+main {
+    font-size: x-large;
+}
+
+ 
+    main h1 {
+        font-size: xx-large;
+        
+    }
+
+    main h2 {
+        font-size: xx-large;
+        
+    }
+
+    nav li a {
+        font-size: xx-large;
+    }
+
+
+.marrowswrap img {
+    border: 2px solid aliceblue;
+    margin: 10px;
+    width: 600px;
+    height: 400px;
+}
+
+.marrowswrap iframe {
+     width: 600px;
+    height: 400px;
+}
+
+.marrowswrap .widegertha {
+    width: 400px;
+}
+
+}
+
